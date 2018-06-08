@@ -1,0 +1,21 @@
+{
+  "priority": "1",
+  "request": {
+    "urlPathPattern": "/sessions",
+    "method": "PUT",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\n\"uuid\": \"prospect_valid_session_id\"}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": false
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "bodyFileName": "get-session-errorMissingIdentifier.json"
+  }
+}

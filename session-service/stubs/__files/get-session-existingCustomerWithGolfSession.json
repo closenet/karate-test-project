@@ -1,0 +1,29 @@
+{
+  "uuid": "valid_session_id_with_golf",
+  "domain": "trading",
+  "backend": "helix",
+  "transactionId": "interaction_with_golf",
+  "userRoles": [
+    "primary"
+  ],
+  "partyId": "valid_party_id",
+  "catalogue": "TP_CORE",
+  "journeyContext": "ROSE_MIG_LFL",
+  "channel": "ONLINE",
+  "user": {
+    "userRoles": [
+      "primary"
+    ]
+  },
+  "customer": {
+    "partyId": "valid_party_id"
+  },
+  "transaction": {
+    "provider": "helix",
+    "reference": "interaction_with_golf",
+    "catalogue": "TP_CORE",
+    "channel": "ONLINE",
+    "journeyContext": "ROSE_MIG_LFL",
+    "customerType": "existing"
+  }
+}

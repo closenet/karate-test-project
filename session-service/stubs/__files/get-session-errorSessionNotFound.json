@@ -1,0 +1,8 @@
+{
+  "errors": [
+    {
+      "code": "session.not.found",
+      "message": "Session not found"
+    }
+  ]
+}

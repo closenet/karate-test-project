@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "urlPathPattern" : "/sessions/valid_session_with_property_details/domains/trading",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "headers": {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "bodyFileName" : "get-session-existingCustomerWithPropertyDetails.json"
+  }
+}

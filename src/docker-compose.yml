@@ -1,0 +1,68 @@
+version: '2.1'
+
+services:
+  product-service:
+    extends:
+      file: ./product-service/docker-compose.yml
+      service: product-service
+
+  session-service:
+    extends:
+      file: ./session-service/docker-compose.yml
+      service: session-service
+
+  sal-service:
+    extends:
+      file: ./sal-service/docker-compose.yml
+      service: sal-service
+
+  pricing-service:
+    extends:
+      file: ./pricing-service/docker-compose.yml
+      service: pricing-service
+
+  basket-service:
+    extends:
+      file: ./basket-service/docker-compose.yml
+      service: basket-service
+
+  customer-service:
+    extends:
+      file: ./customer-service/docker-compose.yml
+      service: customer-service
+
+  proposition-service:
+    extends:
+      file: ./proposition-service/docker-compose.yml
+      service: proposition-service
+
+  product-eligibility-service:
+    extends:
+      file: ./product-eligibility-service/docker-compose.yml
+      service: product-eligibility-service
+
+  journey-eligibility-service:
+    extends:
+      file: ./journey-eligibility-service/docker-compose.yml
+      service: journey-eligibility-service
+
+  order-service:
+    extends:
+      file: ./order-service/docker-compose.yml
+      service: order-service
+
+  journey-primer-service:
+    extends:
+      file: ./journey-primer-service/docker-compose.yml
+      service: journey-primer-service
+
+  journey-link-service:
+    extends:
+      file: ./journey-link-service/docker-compose.yml
+      service: journey-link-service
+
+  odp-service:
+    extends:
+      file: ./odp-service/docker-compose.yml
+      service: odp-service
+

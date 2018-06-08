@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "urlPathPattern" : "/sessions/(skyq_session_id|9021a7360e24be8d95c9906211d82daf)/domains/trading",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "headers": {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "bodyFileName" : "get-session-getCustomerInteractionForSkyQ.json"
+  }
+}

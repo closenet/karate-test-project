@@ -1,0 +1,23 @@
+{
+  "priority": "1",
+  "request": {
+    "urlPathPattern": "/sessions",
+    "method": "PUT",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\n\"uuid\": \"prospect_valid_session_id\",\n\"country\": \"GBR\"\n,\n\"domain\": \"trading\"\n}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": false
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+      "sessionId": "3cd2dfef-684d-443e-adfd-515bc4aa411e"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

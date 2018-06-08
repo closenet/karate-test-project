@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  session-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9001:8080
+    volumes:
+      - ./stubs:/home/wiremock

@@ -1,0 +1,8 @@
+{
+  "errors": [
+    {
+      "code": "transaction.customer.not.found",
+      "message": "Customer not found."
+    }
+  ]
+}

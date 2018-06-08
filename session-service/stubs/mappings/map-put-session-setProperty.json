@@ -1,0 +1,18 @@
+{
+  "request" : {
+    "urlPathPattern" : "/sessions/valid_session_id_order/domains/trading/properties",
+    "method" : "PUT",
+    "bodyPatterns" :  [{
+      "equalToJson":  "{\"properties\": [{\"value\":\"6892de9e-2ef0-5641-1e9e-4890ea89987a\",\"key\":\"completedTransactionId\"}]}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    }]
+  },
+  "response" : {
+    "status" : 201,
+    "headers": {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "bodyFileName" : "put-session-setProperty.json"
+  }
+}

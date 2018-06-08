@@ -1,0 +1,32 @@
+{
+  "uuid": "valid_mobile_session_id",
+  "domain": "trading",
+  "backend": "helix",
+  "transactionId": "35012488-1e52-4182-80ae-d1bbf64e0135",
+  "userRoles": [
+    "primary"
+  ],
+  "accountNumber": "valid_mobile_customer",
+  "partyId": "valid_mobile_customer_partyid",
+  "catalogue": "MOBILE",
+  "journeyContext": "ROSE_MIG_LFL",
+  "channel": "ONLINE",
+  "user": {
+    "userRoles": [
+      "primary"
+    ]
+  },
+  "customer": {
+    "type": "customer",
+    "accountNumber": "valid_mobile_customer",
+    "partyId": "valid_mobile_customer_partyid"
+  },
+  "transaction": {
+    "provider": "helix",
+    "reference": "35012488-1e52-4182-80ae-d1bbf64e0135",
+    "catalogue": "MOBILE",
+    "channel": "ONLINE",
+    "journeyContext": "ROSE_MIG_LFL",
+    "customerType": "existing"
+  }
+}

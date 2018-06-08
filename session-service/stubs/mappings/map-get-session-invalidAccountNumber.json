@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "urlPathPattern" : "/sessions/invalid_acc_number_session_id/domains/trading",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 500,
+    "headers": {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "bodyFileName" : "get-session-errorCustomerNotFound.json"
+  }
+}

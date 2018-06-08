@@ -1,0 +1,23 @@
+{
+  "priority": "1",
+  "request": {
+    "urlPathPattern": "/sessions",
+    "method": "PUT",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\n\"uuid\": \"valid_session_id\",\n\"partyId\": \"14901887743934236319374\"\n,\n\"authToken\": \"valid_sso_token\"\n}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+      "sessionId": "3cd2dfef-684d-443e-adfd-515bc4aa411e"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

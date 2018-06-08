@@ -1,0 +1,21 @@
+{
+  "priority": "1",
+  "request": {
+    "urlPathPattern": "/sessions",
+    "method": "PUT",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.uuid == 'skyq_session_id')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+      "sessionId": "3cd2dfef-684d-443e-adfd-515bc4aa411e"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

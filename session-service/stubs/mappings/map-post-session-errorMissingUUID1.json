@@ -1,0 +1,21 @@
+{
+  "priority": "3",
+  "request": {
+    "urlPathPattern": "/sessions",
+    "method": "PUT",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.accountNumber)]",
+        "ignoreArrayOrder": false,
+        "ignoreExtraElements": false
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "bodyFileName": "get-session-errorMissingUUID.json"
+  }
+}

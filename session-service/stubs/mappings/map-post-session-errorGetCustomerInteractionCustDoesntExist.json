@@ -1,0 +1,21 @@
+{
+  "priority": "1",
+  "request": {
+    "urlPathPattern": "/sessions",
+    "method": "PUT",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\n\"uuid\": \"invalid_party_id_session_id\",\n\"partyId\": \"invalid_party_id\"\n,\n\"authToken\": \"valid_sso_token\"\n}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "bodyFileName": "get-session-errorCustomerNotFound.json"
+  }
+}

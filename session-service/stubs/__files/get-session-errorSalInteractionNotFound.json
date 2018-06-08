@@ -1,0 +1,8 @@
+{
+  "uuid": "missing_sal_interaction",
+  "transactionId": "missing_transaction_id",
+  "backend": "helix",
+  "partyId": "valid_party_id",
+  "accountNumber": "valid_account_number",
+  "authToken": "valid_sso_token"
+}

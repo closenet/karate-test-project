@@ -1,0 +1,8 @@
+{
+  "errors": [
+    {
+      "code": "must.supply.one.identifier",
+      "message": "Must supply customer identifier or country code"
+    }
+  ]
+}

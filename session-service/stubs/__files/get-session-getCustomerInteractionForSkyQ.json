@@ -1,0 +1,31 @@
+{
+  "uuid": "skyq_session_id",
+  "domain": "trading",
+  "backend": "helix",
+  "transactionId": "skyq_transaction_id",
+  "userRoles": [
+    "primary"
+  ],
+  "partyId": "valid_party_id",
+  "accountNumber": "621734336475",
+  "catalogue": "TP_CORE",
+  "journeyContext": "ROSE_MIG_LFL",
+  "channel": "ONLINE",
+  "user": {
+    "userRoles": [
+      "primary"
+    ]
+  },
+  "customer": {
+    "partyId": "valid_party_id",
+    "accountNumber": "621734336475"
+  },
+  "transaction": {
+    "provider": "helix",
+    "reference": "skyq_transaction_id",
+    "catalogue": "TP_CORE",
+    "channel": "ONLINE",
+    "journeyContext": "ROSE_MIG_LFL",
+    "customerType": "existing"
+  }
+}

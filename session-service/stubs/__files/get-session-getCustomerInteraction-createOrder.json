@@ -1,0 +1,31 @@
+{
+  "uuid": "valid_session_id_order",
+  "domain": "trading",
+  "backend": "helix",
+  "transactionId": "6892de9e-2ef0-5641-1e9e-4890ea89987a",
+  "userRoles": [
+    "primary"
+  ],
+  "accountNumber": "621734336475",
+  "partyId": "14901887743934236319374",
+  "catalogue": "TP_CORE",
+  "journeyContext": "ROSE_MIG_LFL",
+  "channel": "ONLINE",
+  "user": {
+    "userRoles": [
+      "primary"
+    ]
+  },
+  "customer": {
+    "accountNumber": "621734336475",
+    "partyId": "14901887743934236319374"
+  },
+  "transaction": {
+    "provider": "helix",
+    "reference": "6892de9e-2ef0-5641-1e9e-4890ea89987a",
+    "catalogue": "TP_CORE",
+    "channel": "ONLINE",
+    "journeyContext": "ROSE_MIG_LFL",
+    "customerType": "existing"
+  }
+}

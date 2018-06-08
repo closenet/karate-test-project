@@ -1,0 +1,14 @@
+{
+  "request" : {
+    "urlPathPattern" : "/sessions/valid_mobile_session_id/domains/mobile",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "headers": {
+      "Content-Type" : "application/json;charset=UTF-8",
+      "domain": "mobile"
+    },
+    "bodyFileName" : "get-session-mobile.json"
+  }
+}

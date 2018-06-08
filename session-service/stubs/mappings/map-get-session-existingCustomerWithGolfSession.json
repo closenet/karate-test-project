@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "urlPathPattern" : "/sessions/valid_session_id_with_golf/domains/trading",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "headers": {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "bodyFileName" : "get-session-existingCustomerWithGolfSession.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "uuid": "valid_session_with_property_details",
+  "domain": "trading",
+  "backend": "helix",
+  "transactionId": "property_details_interaction",
+  "userRoles": [
+    "primary"
+  ],
+  "partyId": "property_details_party_id",
+  "catalogue": "TP_CORE",
+  "journeyContext": "ROSE_MIG_LFL",
+  "channel": "ONLINE",
+  "user": {
+    "userRoles": [
+      "primary"
+    ]
+  },
+  "customer": {
+    "partyId": "property_details_party_id"
+  },
+  "transaction": {
+    "provider": "helix",
+    "reference": "property_details_interaction",
+    "catalogue": "TP_CORE",
+    "channel": "ONLINE",
+    "journeyContext": "ROSE_MIG_LFL",
+    "customerType": "existing"
+  }
+}

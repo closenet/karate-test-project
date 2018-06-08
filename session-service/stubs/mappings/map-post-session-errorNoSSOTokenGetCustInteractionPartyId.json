@@ -1,0 +1,21 @@
+{
+  "priority": "2",
+  "request": {
+    "urlPathPattern": "/sessions",
+    "method": "PUT",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\n\"uuid\": \"valid_session_id\",\n\"partyId\": \"valid_party_id\"\n}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "bodyFileName": "get-session-errorMissingSSOToken.json"
+  }
+}
